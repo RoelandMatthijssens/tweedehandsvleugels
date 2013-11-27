@@ -1,10 +1,19 @@
 body{
 	margin:0px;
-	background-image:url("../img/websitebackground.jpg");
-	background-repeat:no-repeat;
-	background-size:100% auto;
+	background-color:initial;
 }
 
 .container{
 	width:100% !important;
+}
+
+#background{
+	position:fixed;
+	top:0;
+	left:0;
+}
+
+html { 
+	background: url(../img/websitebackground.jpg) no-repeat center center fixed;
+	background-size: cover;
 }
