@@ -1,65 +1,32 @@
-body{
-	margin:0px;
-	background-image:url("../img/websitebackground.jpg");
-	background-repeat:no-repeat;
-	background-size: 100% auto;
-}
+@font-face {
+  font-family: BeyondWonderland;
+  src: url("../fonts/BeyondWonderland.ttf"); }
 
-img.background{
-	width:100%;
-	min-height:100px;
-	max-height:200px;
-	position:absolute;
-}
+.header .navbar {
+  text-align: center;
+  margin: 0 15%;
+  white-space: nowrap; }
+.header a {
+  text-decoration: none;
+  color: black;
+  padding-right: 3%;
+  padding-left: 3%;
+  text-shadow: 0px 0px 1em #cccccc, 0px 0px 0.5em white, 0px 0px 0.1em white;
+  font-family: BeyondWonderland;
+  font-size: 3em; }
+  .header a:hover {
+    text-shadow: 0px 0px 1em #ffae1a, 0px 0px 0.5em #ffd280, 0px 0px 0.1em white; }
+.header img.background {
+  width: 100%;
+  min-height: 100px;
+  max-height: 200px;
+  position: absolute; }
 
-div.header{
-	background-repeat:no-repeat;
-	background-size: 100% auto;
-}
+body {
+  margin: 0px;
+  background-image: url("../img/websitebackground.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto; }
 
-div.footer{
-	background-color:yellow;
-}
-
-.container{
-	width:100% !important;
-}
-
-@font-face{
-	font-family:BeyondWonderland;
-	src: url('../fonts/BeyondWonderland.ttf');
-}
-
-.beyondWonderland{
-	font-family:BeyondWonderland;
-	font-size:30px;
-}
-
-.navbar {
-	text-align:center;
-	margin: 0 15%;
-	white-space:nowrap;
-}
-
-.navbar a{
-	color:black;
-	padding-right:3%;
-	padding-left:3%;
-	text-shadow:
-		0px 0px 1em #ece4cf,
-		0px 0px 1em #f7f4eb,
-		0px 0px 1em #f7f4eb,
-		0px 0px 1em #f7f4eb,
-		0px 0px 1em #f7f4eb,
-		0px 0px 1em #f7f4eb,
-		0px 0px 1em #f7f4eb,
-		0px 0px 1em #f7f4eb,
-		0px 0px 1em #f7f4eb,
-		0px 0px 2em #ffffff,
-		0px 0px 2em #ffffff,
-		0px 0px 2em #ffffff,
-		0px 0px 2em #ffffff,
-		0px 0px 2em #ffffff,
-		0px 0px 2em #ffffff;
-	text-decoration:none;
-}
+.container {
+  width: 100% !important; }
