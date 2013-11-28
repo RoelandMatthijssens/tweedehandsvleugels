@@ -1,0 +1,10 @@
+.left-panel{
+	top:0;
+	height:100%;
+	padding:0;
+	.background{
+		@include gradientBackground();
+	}
+	.nav{
+	}
+}

@@ -23,13 +23,46 @@
   position: absolute; }
 
 .left-panel {
-  background-color: red;
-  height: 100%;
-  position: absolute;
   top: 0;
-  z-index: -1; }
-  .left-panel .nav {
-    margin-top: 200px; }
+  height: 100%;
+  padding: 0; }
+  .left-panel .background {
+    /* fallback/image non-cover color */
+    background-color: orange;
+    /* Firefox 3.6+ */
+    background-image: -moz-linear-gradient(orange, purple);
+    /* Safari 4+, Chrome 1+ */
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(orange), to(purple));
+    /* Safari 5.1+, Chrome 10+ */
+    background-image: -webkit-linear-gradient(orange, purple);
+    /* Opera 11.10+ */
+    background-image: -o-linear-gradient(orange, purple);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3; }
+
+.right-panel {
+  top: 0;
+  height: 100%;
+  padding: 0; }
+  .right-panel .background {
+    /* fallback/image non-cover color */
+    background-color: orange;
+    /* Firefox 3.6+ */
+    background-image: -moz-linear-gradient(orange, purple);
+    /* Safari 4+, Chrome 1+ */
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(orange), to(purple));
+    /* Safari 5.1+, Chrome 10+ */
+    background-image: -webkit-linear-gradient(orange, purple);
+    /* Opera 11.10+ */
+    background-image: -o-linear-gradient(orange, purple);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3; }
 
 body {
   margin: 0px;
@@ -46,3 +79,6 @@ body {
 html {
   background: url(../img/websitebackground.jpg) no-repeat center center fixed;
   background-size: cover; }
+
+.absolute {
+  position: absolute; }
