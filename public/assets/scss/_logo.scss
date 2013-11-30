@@ -1,11 +1,21 @@
-.logo{
-	padding:5px !important;
-	img.twitter-logo{
+.widget{
+		padding-bottom:10px;
+	.logo{
 		margin-left:auto;
 		margin-right:auto;
-		max-width:100px;
-		max-height:100px;
-		height:auto;
-		width:auto;
+		&.square{
+			width:60px;
+			max-height:60px;
+		}
+		&.rectangle{
+			width:120px;
+			max-height:60px;
+		}
+		img{
+			max-width:100%;
+			max-height:100%;
+			height:auto;
+			width:auto;
+		}
 	}
 }

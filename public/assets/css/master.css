@@ -6,15 +6,22 @@
   font-family: BankNewGothic;
   src: url("../fonts/BankNewGothic.ttf"); }
 
-.logo {
-  padding: 5px !important; }
-  .logo img.twitter-logo {
+.widget {
+  padding-bottom: 10px; }
+  .widget .logo {
     margin-left: auto;
-    margin-right: auto;
-    max-width: 100px;
-    max-height: 100px;
-    height: auto;
-    width: auto; }
+    margin-right: auto; }
+    .widget .logo.square {
+      width: 60px;
+      max-height: 60px; }
+    .widget .logo.rectangle {
+      width: 120px;
+      max-height: 60px; }
+    .widget .logo img {
+      max-width: 100%;
+      max-height: 100%;
+      height: auto;
+      width: auto; }
 
 .header .navbar {
   height: 150px;
@@ -60,6 +67,8 @@
     opacity: 0.3; }
 
 .twitter-widget {
+  padding-left: 3px;
+  padding-right: 3px;
   background-color: #1394BB;
   color: #FAFCFD;
   padding: 1px;
@@ -119,10 +128,15 @@
     height: 100%;
     z-index: -1;
     opacity: 0.3; }
-  .right-panel .nav {
+  .right-panel .widget {
     margin-left: auto;
     margin-right: auto;
-    width: 90%; }
+    width: 94%; }
+  .right-panel .note {
+    width: 100%;
+    font-family: BankNewGothic;
+    font-size: 90%;
+    text-align: center; }
 
 body {
   margin: 0px;
