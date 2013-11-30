@@ -1,10 +1,14 @@
 .right-panel{
 	top:0;
 	height:100%;
-	padding:0;
+	padding:$navheight 0 0 0;
+	margin-top:-$navheight;
 	.background{
 		@include gradientBackground();
 	}
 	.nav{
+		margin-left:auto;
+		margin-right:auto;
+		width:90%;
 	}
 }

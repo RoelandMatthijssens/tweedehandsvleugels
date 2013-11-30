@@ -22,8 +22,9 @@
 @mixin gradientBackground(){
 	@include gradient(orange, purple);
 	top:0;
-	width:100%;
+	position:fixed;
 	height:100%;
 	z-index:-1;
 	opacity:0.3;
 }
+
