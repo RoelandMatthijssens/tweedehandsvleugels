@@ -38,6 +38,8 @@
   font-size: 3em; }
   .header a:hover {
     text-shadow: 0px 0px 1em #ffae1a, 0px 0px 0.5em #ffd280, 0px 0px 0.1em white; }
+  .header a.active {
+    text-shadow: 0px 0px 1em #ffae1a, 0px 0px 0.5em #ffd280, 0px 0px 0.1em white; }
 .header img.background {
   width: 100%;
   min-height: 100px;
@@ -93,8 +95,8 @@
   .mid-panel .blog-post img {
     display: block;
     padding: 10px;
-    max-height: 200px;
-    max-width: 200px;
+    max-height: 300px;
+    max-width: 250px;
     float: left; }
   .mid-panel .blog-post h3 {
     font-family: "BankNewGothic"; }
@@ -103,9 +105,20 @@
       float: right;
       vertical-align: middle; }
   .mid-panel .blog-post p {
+    padding: 8px;
     font-family: "arial";
     text-align: justify;
     display: block; }
+    .mid-panel .blog-post p.center {
+      text-align: center; }
+  .mid-panel .blog-post li {
+    padding: 0.6em; }
+    .mid-panel .blog-post li.wings {
+      list-style-type: none;
+      background: url("../img/lidecoration.png") no-repeat;
+      background-size: auto 1.5em;
+      background-position: left center;
+      padding-left: 2em; }
 
 .right-panel {
   top: 0;

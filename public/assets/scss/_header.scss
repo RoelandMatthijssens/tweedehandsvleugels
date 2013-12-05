@@ -16,6 +16,9 @@
 		&:hover{
 			@include glow(lighten(orange, 25%), 0.5em);
 		}
+		&.active{
+			@include glow(lighten(orange, 25%), 0.5em);
+		}
 	}
 	img.background{
 		width:100%;

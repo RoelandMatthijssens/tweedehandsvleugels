@@ -11,8 +11,8 @@
 		img{
 			display:block;
 			padding:10px;
-			max-height:200px;
-			max-width:200px;
+			max-height:300px;
+			max-width:250px;
 			float:left;
 		}
 		h3{
@@ -24,9 +24,23 @@
 			}
 		}
 		p{
+			padding:8px;
 			font-family:"arial";
 			text-align:justify;
 			display:block;
+			&.center{
+				text-align:center;
+			}
+		}
+		li{
+			padding:0.6em;
+			&.wings{
+				list-style-type:none;
+				background:url("../img/lidecoration.png") no-repeat;
+				background-size:auto 1.5em;
+				background-position: left center;
+				padding-left:2em;
+			}
 		}
 	}
 }
