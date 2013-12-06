@@ -6,4 +6,38 @@
 	.background{
 		@include gradientBackground();
 	}
+	ul.sidebar{
+	
+	}
+
+	li{
+			padding-top:10px;
+		display:table;
+		width:100%;
+		&:nth-child(even) a{
+			background-image:url("../img/blackfeather.png");
+			color:white;
+			&:hover{
+				background-image:url("../img/blackfeatherhover.png");
+			}
+		}
+		&:nth-child(odd) a{
+			background-image:url("../img/whitefeather.png");
+			color:black;
+			&:hover{
+				background-image:url("../img/whitefeatherhover.png");
+			}
+		}
+		a{
+			&:hover{background-color:rgba(0, 0, 0, 0) !important;}
+			display:table-cell;
+			text-align:center;
+			vertical-align:middle;
+			height:100px;
+			width:100%;
+			background-repeat:no-repeat;
+			background-position:center center;
+			background-size:100% 100%;
+		}
+	}
 }
