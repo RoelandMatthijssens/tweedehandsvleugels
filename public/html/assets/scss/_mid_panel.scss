@@ -8,13 +8,6 @@
 		display:inline-block;
 		width:100%;
 		padding-bottom:10px;
-		img{
-			display:block;
-			padding:10px;
-			max-height:300px;
-			max-width:250px;
-			float:left;
-		}
 		h3{
 			font-family:"BankNewGothic";
 			span{
@@ -24,23 +17,29 @@
 			}
 		}
 		p{
+			img{
+				display:block;
+				padding:0 10px 10px 0;
+				max-height:300px;
+				max-width:250px;
+				float:left;
+			}
 			padding:8px;
 			font-family:"arial";
 			text-align:justify;
 			display:block;
-			&.center{
-				text-align:center;
-			}
+		}
+		.center{
+			width:100%;
+			text-align:center;
 		}
 		li{
 			padding:0.6em;
-			&.wings{
-				list-style-type:none;
-				background:url("../img/lidecoration.png") no-repeat;
-				background-size:auto 1.5em;
-				background-position: left center;
-				padding-left:2em;
-			}
+			list-style-type:none;
+			background:url("../img/lidecoration.png") no-repeat;
+			background-size:auto 1.5em;
+			background-position: left center;
+			padding-left:2em;
 		}
 	}
 }

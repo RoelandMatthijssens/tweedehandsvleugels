@@ -3,6 +3,7 @@
 		height:$navheight;
 		text-align:center;
 		margin:0 15%;
+		padding-top:50px;
 		white-space:nowrap;
 	}
 	a{
@@ -10,6 +11,7 @@
 		color:black;
 		padding-right:3%;
 		padding-left:3%;
+		padding-top:170px;
 		@include glow(white, 0.5em);
 		font-family:BeyondWonderland;
 		font-size:3em;
