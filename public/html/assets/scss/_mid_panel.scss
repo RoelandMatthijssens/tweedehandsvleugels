@@ -1,8 +1,13 @@
 .mid-panel{
 	.content{
 		background-color:rgba(255, 255, 255, 0.6);
-		margin:10%;
+		background-image:url("../img/wings.png");
+		background-position: 50% 99%;
+		background-size: 5em 5em;
+		background-repeat: no-repeat;
+		margin:10% 10% 1% 10%;
 		padding:2.5em;
+		padding-bottom:5em;
 	}
 	.blog-post{
 		display:inline-block;
@@ -20,9 +25,15 @@
 			img{
 				display:block;
 				padding:0 10px 10px 0;
-				max-height:300px;
-				max-width:250px;
 				float:left;
+				&.large{
+					max-height:400px;
+					max-width:350px;
+				}
+				&.small{
+					max-height:200px;
+					max-width:150px;
+				}
 			}
 			padding:8px;
 			font-family:"arial";
@@ -41,6 +52,11 @@
 			background-position: left center;
 			padding-left:2em;
 		}
+	}
+	.disclaimer{
+		width:100%;
+		text-align:center;
+		font-family:"BankNewGothic";
 	}
 }
 

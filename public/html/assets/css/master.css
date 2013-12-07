@@ -52,7 +52,7 @@
   top: 0;
   height: 100%;
   padding: 150px 0 0 0;
-  margin-top: -150px; }
+  margin-top: -120px; }
   .left-panel .background {
     /* fallback/image non-cover color */
     background-color: orange;
@@ -69,25 +69,32 @@
     height: 100%;
     z-index: -1;
     opacity: 0.3; }
+  .left-panel .side-image {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto; }
+    .left-panel .side-image img {
+      width: 100%;
+      height: auto; }
   .left-panel li {
     padding-top: 10px;
     display: table;
     width: 100%; }
-    .left-panel li:nth-child(even) a {
+    .left-panel li:nth-child(odd) a {
       background-image: url("../img/blackfeather.png");
       color: white; }
-      .left-panel li:nth-child(even) a:hover {
+      .left-panel li:nth-child(odd) a:hover {
         background-image: url("../img/blackfeatherhover.png"); }
-    .left-panel li:nth-child(odd) a {
+    .left-panel li:nth-child(even) a {
       background-image: url("../img/whitefeather.png");
       color: black; }
-      .left-panel li:nth-child(odd) a:hover {
+      .left-panel li:nth-child(even) a:hover {
         background-image: url("../img/whitefeatherhover.png"); }
     .left-panel li a {
       display: table-cell;
       text-align: center;
       vertical-align: middle;
-      height: 100px;
+      height: 150px;
       width: 100%;
       background-repeat: no-repeat;
       background-position: center center;
@@ -113,8 +120,13 @@
 
 .mid-panel .content {
   background-color: rgba(255, 255, 255, 0.6);
-  margin: 10%;
-  padding: 2.5em; }
+  background-image: url("../img/wings.png");
+  background-position: 50% 99%;
+  background-size: 5em 5em;
+  background-repeat: no-repeat;
+  margin: 10% 10% 1% 10%;
+  padding: 2.5em;
+  padding-bottom: 5em; }
 .mid-panel .blog-post {
   display: inline-block;
   width: 100%;
@@ -133,9 +145,13 @@
     .mid-panel .blog-post p img {
       display: block;
       padding: 0 10px 10px 0;
-      max-height: 300px;
-      max-width: 250px;
       float: left; }
+      .mid-panel .blog-post p img.large {
+        max-height: 400px;
+        max-width: 350px; }
+      .mid-panel .blog-post p img.small {
+        max-height: 200px;
+        max-width: 150px; }
   .mid-panel .blog-post .center {
     width: 100%;
     text-align: center; }
@@ -146,12 +162,16 @@
     background-size: auto 1.5em;
     background-position: left center;
     padding-left: 2em; }
+.mid-panel .disclaimer {
+  width: 100%;
+  text-align: center;
+  font-family: "BankNewGothic"; }
 
 .right-panel {
   top: 0;
   height: 100%;
   padding: 150px 0 0 0;
-  margin-top: -150px; }
+  margin-top: -210px; }
   .right-panel .background {
     /* fallback/image non-cover color */
     background-color: orange;
