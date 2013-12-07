@@ -1,15 +1,14 @@
 .col-xs-2.right-panel
 	.background.col-xs-2
-	.widget
-		%a{href:"#"}book
+	.widget.book
+		%a{href:"http://www.bol.com/nl/index.html"}
 	.note Koop het boek op
-	!=widget(:rectangle, "assets/img/bollogo.png")
+	!=widget(:rectangle, "http://www.bol.com/nl/index.html", "assets/img/bollogo.png")
 	.note Gelezen en goedgekeurd?
-	.note Schrijf een recentie op
-	!=widget(:rectangle, "assets/img/goodreadslogo.png")
+	.note Schrijf een recensie op
+	!=widget(:rectangle, "https://www.goodreads.com/book/show/19025113-tweedehands-vleugels", "assets/img/goodreadslogo.png")
 	.note En volg ons op
-	!=widget(:square, "assets/img/facebooklogo.png")
-	!=widget(:square, "assets/img/twitterlogo.png")
+	!=widget(:square, "https://twitter.com/vleugelstrilogy", "assets/img/twitterlogo.png")
 	.widget.twitter-widget
 		%h3 @Vleugelstrilogy
 		%h1 What's being said ...

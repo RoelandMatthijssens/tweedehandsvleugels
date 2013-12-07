@@ -16,8 +16,8 @@ def render_content(name)
 	render_file File.join("pages", "#{name}.haml")
 end
 
-def widget(shape, url)
-	render_partial("widget", {shape:shape, url:url})
+def widget(shape, url, img)
+	render_partial("widget", {shape:shape, url:url, img:img})
 end
 
 def render_file_list(name_list)
