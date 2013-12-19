@@ -189,6 +189,7 @@
     z-index: -1;
     opacity: 0.3; }
   .right-panel .widget {
+    cursor: pointer;
     margin-left: auto;
     margin-right: auto;
     width: 94%; }
