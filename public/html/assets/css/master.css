@@ -79,7 +79,8 @@
   .left-panel li {
     padding-top: 10px;
     display: table;
-    width: 100%; }
+    width: 100%;
+    font-weight: bold; }
     .left-panel li:nth-child(odd) a {
       background-image: url("../img/blackfeather.png");
       color: white; }
@@ -168,6 +169,12 @@
     width: 100%;
     text-align: center;
     font-family: "BankNewGothic"; }
+  .mid-panel .banner {
+    margin: auto;
+    width: 80%; }
+    .mid-panel .banner img {
+      float: none;
+      width: 100%; }
 
 .easterEgg {
   float: right;
@@ -239,7 +246,3 @@ body {
 body {
   background: url(../img/websitebackground.png) no-repeat center center fixed;
   background-size: cover; }
-
-img.centered {
-  margin: auto;
-  max-width: 50%; }
