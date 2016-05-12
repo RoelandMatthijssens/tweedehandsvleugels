@@ -1,11 +1,9 @@
 @font-face {
   font-family: BeyondWonderland;
   src: url("../fonts/BeyondWonderland.ttf"); }
-
 @font-face {
   font-family: BankNewGothic;
   src: url("../fonts/BankNewGothic.ttf"); }
-
 .widget {
   padding-bottom: 10px; }
   .widget .logo {
@@ -100,7 +98,7 @@
       background-position: center center;
       background-size: 100% 100%; }
       .left-panel li a:hover {
-        background-color: rgba(0, 0, 0, 0) !important; }
+        background-color: transparent !important; }
 
 .twitter-widget {
   padding-left: 3px;
@@ -231,3 +229,6 @@ body {
 body {
   background: url(../img/websitebackground.png) no-repeat center center fixed;
   background-size: cover; }
+
+img.full {
+  width: 100%; }
