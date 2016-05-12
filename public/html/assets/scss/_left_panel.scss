@@ -1,9 +1,11 @@
 .left-panel{
 	top:0;
+	max-width: 200px;
 	height:100%;
 	padding:$navheight 0 0 0;
 	margin-top:-$navheight*0.8;
 	.background{
+		max-width: 200px;
 		@include gradientBackground();
 	}
 	.side-image{

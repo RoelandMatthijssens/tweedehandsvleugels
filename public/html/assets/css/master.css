@@ -48,10 +48,12 @@
 
 .left-panel {
   top: 0;
+  max-width: 200px;
   height: 100%;
   padding: 150px 0 0 0;
   margin-top: -120px; }
   .left-panel .background {
+    max-width: 200px;
     /* fallback/image non-cover color */
     background-color: orange;
     /* Firefox 3.6+ */
@@ -116,54 +118,56 @@
     padding-left: 10px;
     font-size: 0.7em; }
 
-.mid-panel .content {
-  background-color: rgba(255, 255, 255, 0.6);
-  background-image: url("../img/wings.png");
-  background-position: 50% 99%;
-  background-size: 5em 5em;
-  background-repeat: no-repeat;
-  margin: 10% 10% 1% 10%;
-  padding: 2.5em;
-  padding-bottom: 5em; }
-.mid-panel .blog-post {
-  display: inline-block;
-  width: 100%;
-  padding-bottom: 10px; }
-  .mid-panel .blog-post h3 {
-    font-family: "BankNewGothic"; }
-    .mid-panel .blog-post h3 span {
-      font-size: 0.6em;
-      float: right;
-      vertical-align: middle; }
-  .mid-panel .blog-post p {
-    padding: 8px;
-    font-family: "arial";
-    text-align: justify;
-    display: block; }
-    .mid-panel .blog-post p img {
-      display: block;
-      padding: 0 10px 10px 0;
-      float: left; }
-      .mid-panel .blog-post p img.large {
-        max-height: 400px;
-        max-width: 350px; }
-      .mid-panel .blog-post p img.small {
-        max-height: 200px;
-        max-width: 150px; }
-  .mid-panel .blog-post .center {
+.mid-panel {
+  max-width: 1200px; }
+  .mid-panel .content {
+    background-color: rgba(255, 255, 255, 0.6);
+    background-image: url("../img/wings.png");
+    background-position: 50% 99%;
+    background-size: 5em 5em;
+    background-repeat: no-repeat;
+    margin: 10% 10% 1% 10%;
+    padding: 2.5em;
+    padding-bottom: 5em; }
+  .mid-panel .blog-post {
+    display: inline-block;
     width: 100%;
-    text-align: center; }
-  .mid-panel .blog-post li {
-    padding: 0.6em;
-    list-style-type: none;
-    background: url("../img/wings.png") no-repeat;
-    background-size: auto 1.5em;
-    background-position: left center;
-    padding-left: 2em; }
-.mid-panel .disclaimer {
-  width: 100%;
-  text-align: center;
-  font-family: "BankNewGothic"; }
+    padding-bottom: 10px; }
+    .mid-panel .blog-post h3 {
+      font-family: "BankNewGothic"; }
+      .mid-panel .blog-post h3 span {
+        font-size: 0.6em;
+        float: right;
+        vertical-align: middle; }
+    .mid-panel .blog-post p {
+      padding: 8px;
+      font-family: "arial";
+      text-align: justify;
+      display: block; }
+      .mid-panel .blog-post p img {
+        display: block;
+        padding: 0 10px 10px 0;
+        float: left; }
+        .mid-panel .blog-post p img.large {
+          max-height: 400px;
+          max-width: 350px; }
+        .mid-panel .blog-post p img.small {
+          max-height: 200px;
+          max-width: 150px; }
+    .mid-panel .blog-post .center {
+      width: 100%;
+      text-align: center; }
+    .mid-panel .blog-post li {
+      padding: 0.6em;
+      list-style-type: none;
+      background: url("../img/wings.png") no-repeat;
+      background-size: auto 1.5em;
+      background-position: left center;
+      padding-left: 2em; }
+  .mid-panel .disclaimer {
+    width: 100%;
+    text-align: center;
+    font-family: "BankNewGothic"; }
 
 .easterEgg {
   float: right;
@@ -172,10 +176,12 @@
 
 .right-panel {
   top: 0;
+  max-width: 200px;
   height: 100%;
   padding: 150px 0 0 0;
   margin-top: -210px; }
   .right-panel .background {
+    max-width: 200px;
     /* fallback/image non-cover color */
     background-color: orange;
     /* Firefox 3.6+ */
@@ -221,6 +227,10 @@ body {
 .container {
   width: 100% !important; }
 
+.content_container {
+  max-width: 1200px;
+  margin: auto; }
+
 #background {
   position: fixed;
   top: 0;
@@ -230,5 +240,6 @@ body {
   background: url(../img/websitebackground.png) no-repeat center center fixed;
   background-size: cover; }
 
-img.full {
-  width: 100%; }
+img.centered {
+  margin: auto;
+  max-width: 50%; }

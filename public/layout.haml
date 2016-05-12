@@ -12,7 +12,7 @@
 	%body
 		.container
 			!= render_partial('header', page:page)
-			.row
+			.row.content_container
 				!= render_partial('leftPanel')
 				!= render_partial('midPanel', page:page)
 				!= render_partial('rightPanel')
