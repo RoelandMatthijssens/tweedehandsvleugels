@@ -37,9 +37,9 @@
   font-family: BeyondWonderland;
   font-size: 3em; }
   .header a:hover {
-    text-shadow: 0px 0px 1em #ffae1a, 0px 0px 0.5em #ffd280, 0px 0px 0.1em white; }
+    text-shadow: 0px 0px 1em #a64dff, 0px 0px 0.5em #d9b3ff, 0px 0px 0.1em white; }
   .header a.active {
-    text-shadow: 0px 0px 1em #ffae1a, 0px 0px 0.5em #ffd280, 0px 0px 0.1em white; }
+    text-shadow: 0px 0px 1em #a64dff, 0px 0px 0.5em #d9b3ff, 0px 0px 0.1em white; }
 .header img.background {
   width: 100%;
   min-height: 100px;
