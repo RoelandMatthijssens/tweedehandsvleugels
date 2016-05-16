@@ -218,24 +218,6 @@
     height: 100%;
     z-index: -1;
     opacity: 0.3; }
-  .right-panel .widget {
-    cursor: pointer;
-    margin-left: auto;
-    margin-right: auto;
-    width: 94%; }
-    .right-panel .widget.book {
-      margin-left: -25%;
-      width: 150%;
-      height: 200px;
-      background-image: url("../img/coverarrow.png");
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center center; }
-      .right-panel .widget.book:hover {
-        background-image: url("../img/coverarrowhover.png"); }
-      .right-panel .widget.book a {
-        width: 100%;
-        height: 100%; }
   .right-panel .note {
     width: 100%;
     font-family: BankNewGothic;
@@ -261,5 +243,28 @@ body {
 body {
   background: url(../img/websitebackground.png) no-repeat center center fixed;
   background-size: cover; }
+
+.widget {
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  width: 94%; }
+  .widget img {
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em; }
+  .widget.book {
+    margin-left: -25%;
+    width: 150%;
+    height: 200px;
+    background-image: url("../img/coverarrow.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; }
+    .widget.book:hover {
+      background-image: url("../img/coverarrowhover.png"); }
+    .widget.book a {
+      width: 100%;
+      height: 100%; }
 
 /*# sourceMappingURL=master.css.map */

@@ -1,0 +1,27 @@
+.widget{
+	cursor:pointer;
+	margin-left:auto;
+	margin-right:auto;
+	width:94%;
+	img{
+		width:100%;
+		padding-top:2em;
+		padding-bottom:2em;
+	}
+	&.book{
+		margin-left:-25%;
+		width:150%;
+		height:200px;
+		background-image:url("../img/coverarrow.png");
+		background-size:contain;
+		background-repeat:no-repeat;
+		background-position:center center;
+		&:hover{
+			background-image:url("../img/coverarrowhover.png");
+		}
+		a{
+			width:100%;
+			height:100%;
+		}
+	}
+}
