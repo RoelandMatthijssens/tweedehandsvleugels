@@ -181,6 +181,20 @@
   width: 80px;
   height: 120px; }
 
+.social a:focus {
+  text-decoration: none; }
+.social div {
+  width: 60px;
+  height: 60px;
+  background-size: 60px 60px;
+  display: inline-block; }
+.social .facebook {
+  background-image: url("../img/facebookIcon.png"); }
+.social .twitter {
+  background-image: url("../img/twitterIcon.png"); }
+.social .instagram {
+  background-image: url("../img/instagramIcon.png"); }
+
 .right-panel {
   top: 0;
   max-width: 200px;
