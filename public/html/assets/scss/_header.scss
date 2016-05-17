@@ -16,10 +16,10 @@
 		font-family:BeyondWonderland;
 		font-size:3em;
 		&:hover{
-			@include glow(lighten(orange, 25%), 0.5em);
+			@include glow(lighten($hovercolor, 25%), 0.5em);
 		}
 		&.active{
-			@include glow(lighten(orange, 25%), 0.5em);
+			@include glow(lighten($hovercolor, 25%), 0.5em);
 		}
 	}
 	img.background{

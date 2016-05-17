@@ -37,9 +37,9 @@
   font-family: BeyondWonderland;
   font-size: 3em; }
   .header a:hover {
-    text-shadow: 0px 0px 1em #ffae1a, 0px 0px 0.5em #ffd280, 0px 0px 0.1em white; }
+    text-shadow: 0px 0px 1em #a64dff, 0px 0px 0.5em #d9b3ff, 0px 0px 0.1em white; }
   .header a.active {
-    text-shadow: 0px 0px 1em #ffae1a, 0px 0px 0.5em #ffd280, 0px 0px 0.1em white; }
+    text-shadow: 0px 0px 1em #a64dff, 0px 0px 0.5em #d9b3ff, 0px 0px 0.1em white; }
 .header img.background {
   width: 100%;
   min-height: 100px;
@@ -181,12 +181,26 @@
   width: 80px;
   height: 120px; }
 
+.social a:focus {
+  text-decoration: none; }
+.social div {
+  width: 60px;
+  height: 60px;
+  background-size: 60px 60px;
+  display: inline-block; }
+.social .facebook {
+  background-image: url("../img/facebookIcon.png"); }
+.social .twitter {
+  background-image: url("../img/twitterIcon.png"); }
+.social .instagram {
+  background-image: url("../img/instagramIcon.png"); }
+
 .right-panel {
   top: 0;
   max-width: 200px;
   height: 100%;
   padding: 150px 0 0 0;
-  margin-top: -210px; }
+  margin-top: -150px; }
   .right-panel .background {
     max-width: 200px;
     /* fallback/image non-cover color */
@@ -204,23 +218,6 @@
     height: 100%;
     z-index: -1;
     opacity: 0.3; }
-  .right-panel .widget {
-    cursor: pointer;
-    margin-left: auto;
-    margin-right: auto;
-    width: 94%; }
-    .right-panel .widget.book {
-      width: 100%;
-      height: 300px;
-      background-image: url("../img/coverarrow.png");
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center center; }
-      .right-panel .widget.book:hover {
-        background-image: url("../img/coverarrowhover.png"); }
-      .right-panel .widget.book a {
-        width: 100%;
-        height: 100%; }
   .right-panel .note {
     width: 100%;
     font-family: BankNewGothic;
@@ -246,3 +243,28 @@ body {
 body {
   background: url(../img/websitebackground.png) no-repeat center center fixed;
   background-size: cover; }
+
+.widget {
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  width: 94%; }
+  .widget img {
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em; }
+  .widget.book {
+    margin-left: -25%;
+    width: 150%;
+    height: 200px;
+    background-image: url("../img/coverarrow.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; }
+    .widget.book:hover {
+      background-image: url("../img/coverarrowhover.png"); }
+    .widget.book a {
+      width: 100%;
+      height: 100%; }
+
+/*# sourceMappingURL=master.css.map */
